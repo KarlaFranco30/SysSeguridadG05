@@ -48,4 +48,9 @@ namespace SysSeguridadG05.EN
         public string ConfirmPassword_aux { get; set; }
 
     }
+    public enum Estatus_Usuario
+    {
+        ACTIVO = 1,
+        INACTIVO = 2
+    }
 }
